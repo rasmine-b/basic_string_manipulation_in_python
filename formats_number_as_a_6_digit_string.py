@@ -4,3 +4,5 @@
 num = int(input("Enter a number: "))
 
 #Format the number as a 6-digit string and print the result
+formatted_num = f"{num:06}"
+print("Formatted number:", formatted_num)
