@@ -4,3 +4,5 @@
 statement = input("Enter a complete statement: ")
 
 #Split the statement into words and count them and print the result
+word_count = len(statement.split())
+print("Number of words in your statement:", word_count)
