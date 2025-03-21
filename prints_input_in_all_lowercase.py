@@ -4,3 +4,5 @@
 fullname = input("Enter your fullname: ")
 
 #Change to lowercase and print the result
+lowercase_name = fullname.lower()
+print("Your fullname in lowercase:", lowercase_name)
