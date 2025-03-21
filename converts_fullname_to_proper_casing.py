@@ -4,3 +4,5 @@
 fullname = input("Enter your fullname with incorrect casing: ")
 
 #Convert to proper casing and print the result
+proper_name = fullname.title()
+print("Your fullname in proper casing:", proper_name)
